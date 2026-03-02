@@ -22,13 +22,21 @@ p {
 }
 
 .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
     clear: both;
-    background-color: rgb(255, 0, 0);
-    height: 1000px;
+    background-color: black;
+    height: 150px;
+    font: 30px Verdana, Arial, sans-serif;
+    color: white;
 }
 
 .principalFooter {
     font: 30px Verdana, Arial, sans-serif;
+    color: white;
+
 }
 
 .peixe {
